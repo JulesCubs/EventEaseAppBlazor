@@ -1,41 +1,51 @@
 @page "/eventdetails/{id:int}"
 @using EventEaseAppBlazor.Models
+@inject EventEaseAppBlazor.Services.EventService EventService
 @inject NavigationManager NavigationManager
+
+<h3>Detalles del evento</h3>
+
+@if (evento is null)
+{
+    <p>Evento no encontrado.</p>
+}
+else
+{
+    <div class="card p-4">
+        <h3>@evento.Nombre</h3>
+        <p><strong>Id:</strong> @evento.Id</p>
+        <p><strong>Fecha:</strong> @evento.Fecha.ToShortDateString()</p>
+        <p><strong>Ubicación:</strong> @evento.Ubicacion</p>
+        <p><strong>Descripción:</strong> @evento.Descripcion</p>
+        <p><strong>Organizador:</strong> @evento.Organizador</p>
+        <p><strong>Categoría:</strong> @evento.Categoria</p>
+        <button class="btn btn-danger" @onclick="EliminarEvento">Eliminar</button>
+        <button class="btn btn-secondary ms-2" @onclick="Volver">Volver</button>
+    </div>
+}
 
 @code {
     [Parameter]
     public int id { get; set; }
 
-    private Event? selectedEvent;
+    private Event? evento;
 
-    // Simulación de datos (en una app real, buscarías por un servicio)
-    private List<Event> eventos = new()
+    protected override void OnParametersSet()
     {
-        new Event { Id = 1, Name = "Concierto de Rock", Date = new DateTime(2024, 6, 15), Location = "Madrid" },
-        new Event { Id = 2, Name = "Feria del Libro", Date = new DateTime(2024, 7, 10), Location = "Barcelona" },
-        new Event { Id = 3, Name = "Maratón Ciudad", Date = new DateTime(2024, 8, 5), Location = "Valencia" }
-    };
-
-    protected override void OnInitialized()
-    {
-        selectedEvent = eventos.FirstOrDefault(e => e.Id == id);
+        evento = EventService.GetById(id);
     }
 
-    private void OnVolverClick()
+    private void EliminarEvento()
+    {
+        if (evento != null)
+        {
+            EventService.Remove(evento.Id);
+            NavigationManager.NavigateTo("/");
+        }
+    }
+
+    private void Volver()
     {
         NavigationManager.NavigateTo("/");
     }
-}
-
-@if (selectedEvent is not null)
-{
-    <h3>@selectedEvent.Name</h3>
-    <p><strong>Id:</strong> @selectedEvent.Id</p>
-    <p><strong>Fecha:</strong> @selectedEvent.Date.ToShortDateString()</p>
-    <p><strong>Ubicación:</strong> @selectedEvent.Location</p>
-    <button @onclick="OnVolverClick">Volver</button>
-}
-else
-{
-    <p>Evento no encontrado.</p>
 }

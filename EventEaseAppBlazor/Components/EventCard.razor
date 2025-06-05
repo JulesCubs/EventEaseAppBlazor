@@ -1,18 +1,23 @@
 @using System.Globalization
+@using EventEaseAppBlazor.Models
+@inject NavigationManager NavigationManager
 
-<div class="card m-2 p-3 shadow-sm">
-    <h4>@EventName</h4>
-    <p><strong>Fecha:</strong> @EventDate.ToString("dd/MM/yyyy", CultureInfo.InvariantCulture)</p>
-    <p><strong>Ubicación:</strong> @EventLocation</p>
+<div class="card p-3 mb-3">
+    <h4>@Evento.Nombre</h4>
+    <p><strong>Fecha:</strong> @Evento.Fecha.ToString("dd/MM/yyyy")</p>
+    <p><strong>Ubicación:</strong> @Evento.Ubicacion</p>
+    <p><strong>Descripción:</strong> @Evento.Descripcion</p>
+    <p><strong>Organizador:</strong> @Evento.Organizador</p>
+    <p><strong>Categoría:</strong> @Evento.Categoria</p>
+    <button class="btn btn-primary" @onclick="VerDetalles">Ver detalles</button>
 </div>
 
 @code {
     [Parameter]
-    public string? EventName { get; set; }
+    public Event Evento { get; set; } = default!;
 
-    [Parameter]
-    public DateTime EventDate { get; set; }
-
-    [Parameter]
-    public string? EventLocation { get; set; }
+    private void VerDetalles()
+    {
+        NavigationManager.NavigateTo($"/eventdetails/{Evento.Id}");
+    }
 }

@@ -1,22 +1,51 @@
 @page "/"
 @using EventEaseAppBlazor.Models
-@using EventEaseAppBlazor.Components
-@using Microsoft.AspNetCore.Components.Routing
+@inject EventEaseAppBlazor.Services.EventService EventService
+@inject NavigationManager NavigationManager
 
 <h3>Eventos</h3>
 
 @foreach (var evento in eventos)
 {
-    <NavLink class="text-decoration-none" href="@($"/eventdetails/{evento.Id}")" Match="NavLinkMatch.Prefix">
-        <EventCard EventName="@evento.Name" EventDate="@evento.Date" EventLocation="@evento.Location" />
-    </NavLink>
+    <div>
+        <b>@evento.Nombre</b>
+        <button @onclick="() => VerDetalles(evento.Id)">Ver detalles</button>
+        <button @onclick="() => EliminarEvento(evento.Id)">Eliminar</button>
+    </div>
 }
 
+<input placeholder="Nombre" @bind="nuevoEvento.Nombre" />
+<button @onclick="AgregarEvento">Agregar</button>
+
 @code {
-    private List<Event> eventos = new()
+    private List<Event> eventos = new();
+    private Event nuevoEvento = new Event();
+
+    protected override void OnInitialized()
     {
-        new Event { Id = 1, Name = "Concierto de Rock", Date = new DateTime(2024, 6, 15), Location = "Madrid" },
-        new Event { Id = 2, Name = "Feria del Libro", Date = new DateTime(2024, 7, 10), Location = "Barcelona" },
-        new Event { Id = 3, Name = "Maratón Ciudad", Date = new DateTime(2024, 8, 5), Location = "Valencia" }
-    };
+        eventos = EventService.GetAll();
+    }
+
+    private void VerDetalles(int id)
+    {
+        NavigationManager.NavigateTo($"/eventdetails/{id}");
+    }
+
+    private void AgregarEvento()
+    {
+        if (!string.IsNullOrWhiteSpace(nuevoEvento.Nombre))
+        {
+            EventService.Add(new Event { Nombre = nuevoEvento.Nombre });
+            eventos = EventService.GetAll();
+            nuevoEvento = new Event();
+            StateHasChanged();
+        }
+    }
+
+    private void EliminarEvento(int id)
+    {
+        EventService.Remove(id);
+        eventos = EventService.GetAll();
+        StateHasChanged();
+    }
 }

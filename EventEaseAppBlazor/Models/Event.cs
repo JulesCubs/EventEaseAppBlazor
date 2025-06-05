@@ -5,18 +5,24 @@ namespace EventEaseAppBlazor.Models
     public class Event
     {
         public int Id { get; set; }
-        public string Name { get; set; } = string.Empty;
-        public DateTime Date { get; set; }
-        public string Location { get; set; } = string.Empty;
+        public string Nombre { get; set; } = string.Empty;
+        public DateTime Fecha { get; set; }
+        public string Ubicacion { get; set; } = string.Empty;
+        public string Descripcion { get; set; } = string.Empty;
+        public string Organizador { get; set; } = string.Empty;
+        public string Categoria { get; set; } = string.Empty;
 
         public Event() { }
 
-        public Event(int id, string name, DateTime date, string location)
+        public Event(int id, string nombre, DateTime fecha, string ubicacion, string descripcion, string organizador, string categoria)
         {
             Id = id;
-            Name = name;
-            Date = date;
-            Location = location;
+            Nombre = nombre;
+            Fecha = fecha;
+            Ubicacion = ubicacion;
+            Descripcion = descripcion;
+            Organizador = organizador;
+            Categoria = categoria;
         }
     }
 }
