@@ -1,0 +1,22 @@
+@page "/"
+@using EventEaseAppBlazor.Models
+@using EventEaseAppBlazor.Components
+@using Microsoft.AspNetCore.Components.Routing
+
+<h3>Eventos</h3>
+
+@foreach (var evento in eventos)
+{
+    <NavLink class="text-decoration-none" href="@($"/eventdetails/{evento.Id}")" Match="NavLinkMatch.Prefix">
+        <EventCard EventName="@evento.Name" EventDate="@evento.Date" EventLocation="@evento.Location" />
+    </NavLink>
+}
+
+@code {
+    private List<Event> eventos = new()
+    {
+        new Event { Id = 1, Name = "Concierto de Rock", Date = new DateTime(2024, 6, 15), Location = "Madrid" },
+        new Event { Id = 2, Name = "Feria del Libro", Date = new DateTime(2024, 7, 10), Location = "Barcelona" },
+        new Event { Id = 3, Name = "Maratón Ciudad", Date = new DateTime(2024, 8, 5), Location = "Valencia" }
+    };
+}

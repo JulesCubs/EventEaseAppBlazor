@@ -1,0 +1,41 @@
+@page "/eventdetails/{id:int}"
+@using EventEaseAppBlazor.Models
+@inject NavigationManager NavigationManager
+
+@code {
+    [Parameter]
+    public int id { get; set; }
+
+    private Event? selectedEvent;
+
+    // Simulación de datos (en una app real, buscarías por un servicio)
+    private List<Event> eventos = new()
+    {
+        new Event { Id = 1, Name = "Concierto de Rock", Date = new DateTime(2024, 6, 15), Location = "Madrid" },
+        new Event { Id = 2, Name = "Feria del Libro", Date = new DateTime(2024, 7, 10), Location = "Barcelona" },
+        new Event { Id = 3, Name = "Maratón Ciudad", Date = new DateTime(2024, 8, 5), Location = "Valencia" }
+    };
+
+    protected override void OnInitialized()
+    {
+        selectedEvent = eventos.FirstOrDefault(e => e.Id == id);
+    }
+
+    private void OnVolverClick()
+    {
+        NavigationManager.NavigateTo("/");
+    }
+}
+
+@if (selectedEvent is not null)
+{
+    <h3>@selectedEvent.Name</h3>
+    <p><strong>Id:</strong> @selectedEvent.Id</p>
+    <p><strong>Fecha:</strong> @selectedEvent.Date.ToShortDateString()</p>
+    <p><strong>Ubicación:</strong> @selectedEvent.Location</p>
+    <button @onclick="OnVolverClick">Volver</button>
+}
+else
+{
+    <p>Evento no encontrado.</p>
+}

@@ -1,0 +1,18 @@
+@using System.Globalization
+
+<div class="card m-2 p-3 shadow-sm">
+    <h4>@EventName</h4>
+    <p><strong>Fecha:</strong> @EventDate.ToString("dd/MM/yyyy", CultureInfo.InvariantCulture)</p>
+    <p><strong>Ubicación:</strong> @EventLocation</p>
+</div>
+
+@code {
+    [Parameter]
+    public string? EventName { get; set; }
+
+    [Parameter]
+    public DateTime EventDate { get; set; }
+
+    [Parameter]
+    public string? EventLocation { get; set; }
+}
