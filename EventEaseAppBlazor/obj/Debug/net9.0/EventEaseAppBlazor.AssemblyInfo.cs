@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EventEaseAppBlazor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+62ef98bf45e13e19f6161d0c81b0706c5a479ffe")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e53d701449039a7dd1a952ebb12c771fe591a6b")]
 [assembly: System.Reflection.AssemblyProductAttribute("EventEaseAppBlazor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EventEaseAppBlazor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

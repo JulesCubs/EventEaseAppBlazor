@@ -8,5 +8,6 @@ var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.RootComponents.Add<App>("#app");
 
 builder.Services.AddScoped<EventService>(); // <--- Agrega esta línea
+builder.Services.AddSingleton<UserSessionService>();
 
 await builder.Build().RunAsync();

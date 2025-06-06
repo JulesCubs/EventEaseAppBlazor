@@ -7,28 +7,32 @@ namespace EventEaseAppBlazor.Services
 {
     public class EventService
     {
-        private readonly List<Event> eventos = new()
+        private readonly List<Event> _eventos = new();
+        private int _nextId = 1;
+
+        public List<Event> GetAll()
         {
-            new Event { Id = 1, Nombre = "Concierto de Rock", Fecha = new DateTime(2024, 6, 15), Ubicacion = "Madrid", Descripcion = "Un gran concierto de rock.", Organizador = "LiveMusic", Categoria = "Música" },
-            new Event { Id = 2, Nombre = "Feria del Libro", Fecha = new DateTime(2024, 7, 10), Ubicacion = "Barcelona", Descripcion = "Feria anual de libros.", Organizador = "Cultura Viva", Categoria = "Cultura" },
-            new Event { Id = 3, Nombre = "Maratón Ciudad", Fecha = new DateTime(2024, 8, 5), Ubicacion = "Valencia", Descripcion = "Maratón anual.", Organizador = "DeportePlus", Categoria = "Deporte" }
-        };
-
-        public List<Event> GetAll() => eventos.ToList();
-
-        public Event? GetById(int id) => eventos.FirstOrDefault(e => e.Id == id);
-
-        public void Add(Event nuevo)
-        {
-            nuevo.Id = eventos.Any() ? eventos.Max(e => e.Id) + 1 : 1;
-            eventos.Add(nuevo);
+            return _eventos.ToList();
         }
 
-        public void Remove(int id)
+        public void Add(Event evento)
         {
-            var evento = eventos.FirstOrDefault(e => e.Id == id);
+            evento.Id = _nextId++;
+            _eventos.Add(evento);
+        }
+
+        public void Delete(int id)
+        {
+            var evento = _eventos.FirstOrDefault(e => e.Id == id);
             if (evento != null)
-                eventos.Remove(evento);
+            {
+                _eventos.Remove(evento);
+            }
+        }
+
+        public Event? GetById(int id)
+        {
+            return _eventos.FirstOrDefault(e => e.Id == id);
         }
     }
 }

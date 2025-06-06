@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NnYx0/p1C+zsChjwXzNqsCTRdW/DAgFyqp5YFAlYmlA=",
+  "Hash": "h69E4BpIzhJIUyS15btZIlFjM8ZymvWXtFHWlaNICCc=",
   "Source": "EventEaseAppBlazor",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "9edhgxs0zm",
-      "Integrity": "760Z4eA8r4XWDpmlbbWuKbBGD/URzvkZz3kEeOpiAvM=",
+      "Fingerprint": "8ih2nl4j3u",
+      "Integrity": "ILBE2aE84W00Ym1M1idjPe2DsLKd4vG4JocJSanLOjU=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj/Debug/net9.0/blazor.boot.json"
@@ -199,8 +199,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "k98z0sq50s",
-      "Integrity": "aBuudMWGo0LmodRr3cXv5x1Wu4grRxqUM7z9Az334U4=",
+      "Fingerprint": "p2w1t6tiw8",
+      "Integrity": "X0JyfEt6egqIhDefnWJwKVWrS1CLclDYAhWYGxXGr6g=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj/Debug/net9.0/EventEaseAppBlazor.pdb"
@@ -220,8 +220,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "hgjx8jcg0w",
-      "Integrity": "Pyt4TK9UI3zgRPsgtWi1MC+ijniMEuJA2fVAP9g4YvM=",
+      "Fingerprint": "tqfx5pptyp",
+      "Integrity": "Czky2K/pk3TjELaRk9DZbNEnD0GwX9P+/vOqV8qqcAk=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/obj/Debug/net9.0/webcil/EventEaseAppBlazor.wasm"
@@ -4343,12 +4343,12 @@
       "OriginalItemSpec": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/bin/Debug/net9.0/wwwroot/_framework/System.Runtime.wasm"
     },
     {
-      "Identity": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/obj/Debug/net9.0/compressed/04a61o0gbu-lccqhwj5zb.gz",
+      "Identity": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/obj/Debug/net9.0/compressed/04a61o0gbu-s24dmygy00.gz",
       "SourceId": "EventEaseAppBlazor",
       "SourceType": "Discovered",
       "ContentRoot": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "index#[.{fingerprint=lccqhwj5zb}]?.html.gz",
+      "RelativePath": "index#[.{fingerprint=s24dmygy00}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -4357,8 +4357,8 @@
       "RelatedAsset": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/wwwroot/index.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "az6a6ryu8k",
-      "Integrity": "1vPzyc9WOvVtZYR6XVY2l5mxhL8boC47xt586sB5RVw=",
+      "Fingerprint": "kj53tucz8y",
+      "Integrity": "MMwvMgdyGmecSKSCmpyDZSY9HIq1Q2z4BzVveCmhw9Y=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/wwwroot/index.html"
@@ -7535,12 +7535,12 @@
       "OriginalItemSpec": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/bin/Debug/net9.0/wwwroot/_framework/System.Data.DataSetExtensions.wasm"
     },
     {
-      "Identity": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/obj/Debug/net9.0/compressed/jltdx393cm-xd83rnx73q.gz",
+      "Identity": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/obj/Debug/net9.0/compressed/jltdx393cm-xvwjr3soza.gz",
       "SourceId": "EventEaseAppBlazor",
       "SourceType": "Discovered",
       "ContentRoot": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "css/app#[.{fingerprint=xd83rnx73q}]?.css.gz",
+      "RelativePath": "css/app#[.{fingerprint=xvwjr3soza}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -7549,8 +7549,8 @@
       "RelatedAsset": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/wwwroot/css/app.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "yab8ch8pb1",
-      "Integrity": "xuTldvOhATnBJXNhqyL9C27qZKM/W7fBC6Z3vsJlWko=",
+      "Fingerprint": "vbv24o2gdz",
+      "Integrity": "Gw/TteIZCiwkMD1L/PSmt9I7iqd2/uQJyG6+UoKk9dQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/wwwroot/css/app.css"
@@ -8270,12 +8270,12 @@
       "OriginalItemSpec": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/bin/Debug/net9.0/wwwroot/_framework/Microsoft.Extensions.DependencyInjection.Abstractions.wasm"
     },
     {
-      "Identity": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/obj/Debug/net9.0/compressed/okgptxg7fp-hgjx8jcg0w.gz",
+      "Identity": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/obj/Debug/net9.0/compressed/okgptxg7fp-tqfx5pptyp.gz",
       "SourceId": "EventEaseAppBlazor",
       "SourceType": "Computed",
       "ContentRoot": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "_framework/EventEaseAppBlazor#[.{fingerprint=hgjx8jcg0w}]!.wasm.gz",
+      "RelativePath": "_framework/EventEaseAppBlazor#[.{fingerprint=tqfx5pptyp}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -8284,8 +8284,8 @@
       "RelatedAsset": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/bin/Debug/net9.0/wwwroot/_framework/EventEaseAppBlazor.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "xytud3wh5w",
-      "Integrity": "OUyMUDQf5GRtU9AALx+qAVNJ8wV8+gHDgqZZvqMJEj8=",
+      "Fingerprint": "9ci79tlaaq",
+      "Integrity": "Z5oS4Q6QsbTA2fPCT830UYxlYVzembP7eF1Dz2qRvcI=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/bin/Debug/net9.0/wwwroot/_framework/EventEaseAppBlazor.wasm"
@@ -8816,7 +8816,7 @@
       "OriginalItemSpec": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css"
     },
     {
-      "Identity": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/obj/Debug/net9.0/compressed/u23ymqntxk-9edhgxs0zm.gz",
+      "Identity": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/obj/Debug/net9.0/compressed/u23ymqntxk-8ih2nl4j3u.gz",
       "SourceId": "EventEaseAppBlazor",
       "SourceType": "Computed",
       "ContentRoot": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/obj/Debug/net9.0/compressed/",
@@ -8830,8 +8830,8 @@
       "RelatedAsset": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ks4oq9nayk",
-      "Integrity": "RDxGHmtXK4srlCnHL9CAkFeBW2NO8w7t8UH+7/+U2Mg=",
+      "Fingerprint": "bew8v25jdg",
+      "Integrity": "/dLiLD31YG2HqtBNFR0ovbvyuPbUmhWeC3WfER3bfzk=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json"
@@ -9089,12 +9089,12 @@
       "OriginalItemSpec": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/bin/Debug/net9.0/wwwroot/_framework/System.ComponentModel.Primitives.wasm"
     },
     {
-      "Identity": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/obj/Debug/net9.0/compressed/vxku9hr0nl-k98z0sq50s.gz",
+      "Identity": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/obj/Debug/net9.0/compressed/vxku9hr0nl-p2w1t6tiw8.gz",
       "SourceId": "EventEaseAppBlazor",
       "SourceType": "Computed",
       "ContentRoot": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "_framework/EventEaseAppBlazor#[.{fingerprint=k98z0sq50s}]!.pdb.gz",
+      "RelativePath": "_framework/EventEaseAppBlazor#[.{fingerprint=p2w1t6tiw8}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -9103,8 +9103,8 @@
       "RelatedAsset": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/bin/Debug/net9.0/wwwroot/_framework/EventEaseAppBlazor.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "sv0jdwzh57",
-      "Integrity": "OKjRSE+pmccqY3nHS5Vs89mSDZD2s5yubygnANDRBe0=",
+      "Fingerprint": "ld09wx06u3",
+      "Integrity": "19G2adF0xQWkGRRf9rBomAbM3mVi75Yq2keBSjo4y18=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/bin/Debug/net9.0/wwwroot/_framework/EventEaseAppBlazor.pdb"
@@ -9586,8 +9586,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "xd83rnx73q",
-      "Integrity": "NdR6BBtG0A492/UR/PUoJ0g3Y19lJ4fdogIrJWMC6TE=",
+      "Fingerprint": "xvwjr3soza",
+      "Integrity": "wyt32Kz5kx6umePSmC70CSg4WhGzTosE5FhwjLignjo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/app.css"
@@ -9649,8 +9649,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "lccqhwj5zb",
-      "Integrity": "BWKPYqEymPVfvWANCPJeMu+crlVU/jVkAkC3ktTkMgc=",
+      "Fingerprint": "s24dmygy00",
+      "Integrity": "HIxDWxikfTjo7tiCnSFy7alXCdNzbwOHV6n4Nk8GZ84=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/index.html"
@@ -10621,11 +10621,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"760Z4eA8r4XWDpmlbbWuKbBGD/URzvkZz3kEeOpiAvM=\""
+          "Value": "\"ILBE2aE84W00Ym1M1idjPe2DsLKd4vG4JocJSanLOjU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 04:50:37 GMT"
+          "Value": "Fri, 06 Jun 2025 04:31:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10635,18 +10635,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-760Z4eA8r4XWDpmlbbWuKbBGD/URzvkZz3kEeOpiAvM="
+          "Value": "sha256-ILBE2aE84W00Ym1M1idjPe2DsLKd4vG4JocJSanLOjU="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/obj/Debug/net9.0/compressed/u23ymqntxk-9edhgxs0zm.gz",
+      "AssetFile": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/obj/Debug/net9.0/compressed/u23ymqntxk-8ih2nl4j3u.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000081011017"
+          "Quality": "0.000081017581"
         }
       ],
       "ResponseHeaders": [
@@ -10656,15 +10656,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12343"
+          "Value": "12342"
         },
         {
           "Name": "ETag",
-          "Value": "\"RDxGHmtXK4srlCnHL9CAkFeBW2NO8w7t8UH+7/+U2Mg=\""
+          "Value": "\"/dLiLD31YG2HqtBNFR0ovbvyuPbUmhWeC3WfER3bfzk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 04:47:50 GMT"
+          "Value": "Fri, 06 Jun 2025 04:30:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10684,19 +10684,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"760Z4eA8r4XWDpmlbbWuKbBGD/URzvkZz3kEeOpiAvM=\""
+          "Value": "W/\"ILBE2aE84W00Ym1M1idjPe2DsLKd4vG4JocJSanLOjU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-760Z4eA8r4XWDpmlbbWuKbBGD/URzvkZz3kEeOpiAvM="
+          "Value": "sha256-ILBE2aE84W00Ym1M1idjPe2DsLKd4vG4JocJSanLOjU="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/obj/Debug/net9.0/compressed/u23ymqntxk-9edhgxs0zm.gz",
+      "AssetFile": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/obj/Debug/net9.0/compressed/u23ymqntxk-8ih2nl4j3u.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10705,7 +10705,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12343"
+          "Value": "12342"
         },
         {
           "Name": "Content-Type",
@@ -10713,11 +10713,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"RDxGHmtXK4srlCnHL9CAkFeBW2NO8w7t8UH+7/+U2Mg=\""
+          "Value": "\"/dLiLD31YG2HqtBNFR0ovbvyuPbUmhWeC3WfER3bfzk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 04:47:50 GMT"
+          "Value": "Fri, 06 Jun 2025 04:30:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10735,7 +10735,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-RDxGHmtXK4srlCnHL9CAkFeBW2NO8w7t8UH+7/+U2Mg="
+          "Value": "sha256-/dLiLD31YG2HqtBNFR0ovbvyuPbUmhWeC3WfER3bfzk="
         }
       ]
     },
@@ -12665,168 +12665,7 @@
       ]
     },
     {
-      "Route": "_framework/EventEaseAppBlazor.hgjx8jcg0w.wasm",
-      "AssetFile": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/bin/Debug/net9.0/wwwroot/_framework/EventEaseAppBlazor.wasm",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "20245"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Pyt4TK9UI3zgRPsgtWi1MC+ijniMEuJA2fVAP9g4YvM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 04:50:37 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "hgjx8jcg0w"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/EventEaseAppBlazor.wasm"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Pyt4TK9UI3zgRPsgtWi1MC+ijniMEuJA2fVAP9g4YvM="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/EventEaseAppBlazor.hgjx8jcg0w.wasm",
-      "AssetFile": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/obj/Debug/net9.0/compressed/okgptxg7fp-hgjx8jcg0w.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000115353559"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "8668"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"OUyMUDQf5GRtU9AALx+qAVNJ8wV8+gHDgqZZvqMJEj8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 04:50:37 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"Pyt4TK9UI3zgRPsgtWi1MC+ijniMEuJA2fVAP9g4YvM=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "hgjx8jcg0w"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/EventEaseAppBlazor.wasm"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Pyt4TK9UI3zgRPsgtWi1MC+ijniMEuJA2fVAP9g4YvM="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/EventEaseAppBlazor.hgjx8jcg0w.wasm.gz",
-      "AssetFile": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/obj/Debug/net9.0/compressed/okgptxg7fp-hgjx8jcg0w.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "8668"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"OUyMUDQf5GRtU9AALx+qAVNJ8wV8+gHDgqZZvqMJEj8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 04:50:37 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "hgjx8jcg0w"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/EventEaseAppBlazor.wasm.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-OUyMUDQf5GRtU9AALx+qAVNJ8wV8+gHDgqZZvqMJEj8="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/EventEaseAppBlazor.k98z0sq50s.pdb",
+      "Route": "_framework/EventEaseAppBlazor.p2w1t6tiw8.pdb",
       "AssetFile": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/bin/Debug/net9.0/wwwroot/_framework/EventEaseAppBlazor.pdb",
       "Selectors": [],
       "ResponseHeaders": [
@@ -12836,7 +12675,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "24472"
+          "Value": "37784"
         },
         {
           "Name": "Content-Type",
@@ -12844,11 +12683,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"aBuudMWGo0LmodRr3cXv5x1Wu4grRxqUM7z9Az334U4=\""
+          "Value": "\"X0JyfEt6egqIhDefnWJwKVWrS1CLclDYAhWYGxXGr6g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 04:50:37 GMT"
+          "Value": "Fri, 06 Jun 2025 04:31:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12858,7 +12697,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "k98z0sq50s"
+          "Value": "p2w1t6tiw8"
         },
         {
           "Name": "label",
@@ -12866,18 +12705,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-aBuudMWGo0LmodRr3cXv5x1Wu4grRxqUM7z9Az334U4="
+          "Value": "sha256-X0JyfEt6egqIhDefnWJwKVWrS1CLclDYAhWYGxXGr6g="
         }
       ]
     },
     {
-      "Route": "_framework/EventEaseAppBlazor.k98z0sq50s.pdb",
-      "AssetFile": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/obj/Debug/net9.0/compressed/vxku9hr0nl-k98z0sq50s.gz",
+      "Route": "_framework/EventEaseAppBlazor.p2w1t6tiw8.pdb",
+      "AssetFile": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/obj/Debug/net9.0/compressed/vxku9hr0nl-p2w1t6tiw8.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000058582308"
+          "Quality": "0.000035688794"
         }
       ],
       "ResponseHeaders": [
@@ -12887,15 +12726,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "17069"
+          "Value": "28019"
         },
         {
           "Name": "ETag",
-          "Value": "\"OKjRSE+pmccqY3nHS5Vs89mSDZD2s5yubygnANDRBe0=\""
+          "Value": "\"19G2adF0xQWkGRRf9rBomAbM3mVi75Yq2keBSjo4y18=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 04:50:37 GMT"
+          "Value": "Fri, 06 Jun 2025 04:31:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12915,13 +12754,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"aBuudMWGo0LmodRr3cXv5x1Wu4grRxqUM7z9Az334U4=\""
+          "Value": "W/\"X0JyfEt6egqIhDefnWJwKVWrS1CLclDYAhWYGxXGr6g=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "k98z0sq50s"
+          "Value": "p2w1t6tiw8"
         },
         {
           "Name": "label",
@@ -12929,13 +12768,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-aBuudMWGo0LmodRr3cXv5x1Wu4grRxqUM7z9Az334U4="
+          "Value": "sha256-X0JyfEt6egqIhDefnWJwKVWrS1CLclDYAhWYGxXGr6g="
         }
       ]
     },
     {
-      "Route": "_framework/EventEaseAppBlazor.k98z0sq50s.pdb.gz",
-      "AssetFile": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/obj/Debug/net9.0/compressed/vxku9hr0nl-k98z0sq50s.gz",
+      "Route": "_framework/EventEaseAppBlazor.p2w1t6tiw8.pdb.gz",
+      "AssetFile": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/obj/Debug/net9.0/compressed/vxku9hr0nl-p2w1t6tiw8.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12944,7 +12783,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "17069"
+          "Value": "28019"
         },
         {
           "Name": "Content-Type",
@@ -12952,11 +12791,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"OKjRSE+pmccqY3nHS5Vs89mSDZD2s5yubygnANDRBe0=\""
+          "Value": "\"19G2adF0xQWkGRRf9rBomAbM3mVi75Yq2keBSjo4y18=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 04:50:37 GMT"
+          "Value": "Fri, 06 Jun 2025 04:31:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12974,7 +12813,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "k98z0sq50s"
+          "Value": "p2w1t6tiw8"
         },
         {
           "Name": "label",
@@ -12982,7 +12821,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-OKjRSE+pmccqY3nHS5Vs89mSDZD2s5yubygnANDRBe0="
+          "Value": "sha256-19G2adF0xQWkGRRf9rBomAbM3mVi75Yq2keBSjo4y18="
         }
       ]
     },
@@ -12997,7 +12836,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "24472"
+          "Value": "37784"
         },
         {
           "Name": "Content-Type",
@@ -13005,11 +12844,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"aBuudMWGo0LmodRr3cXv5x1Wu4grRxqUM7z9Az334U4=\""
+          "Value": "\"X0JyfEt6egqIhDefnWJwKVWrS1CLclDYAhWYGxXGr6g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 04:50:37 GMT"
+          "Value": "Fri, 06 Jun 2025 04:31:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13019,18 +12858,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-aBuudMWGo0LmodRr3cXv5x1Wu4grRxqUM7z9Az334U4="
+          "Value": "sha256-X0JyfEt6egqIhDefnWJwKVWrS1CLclDYAhWYGxXGr6g="
         }
       ]
     },
     {
       "Route": "_framework/EventEaseAppBlazor.pdb",
-      "AssetFile": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/obj/Debug/net9.0/compressed/vxku9hr0nl-k98z0sq50s.gz",
+      "AssetFile": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/obj/Debug/net9.0/compressed/vxku9hr0nl-p2w1t6tiw8.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000058582308"
+          "Quality": "0.000035688794"
         }
       ],
       "ResponseHeaders": [
@@ -13040,15 +12879,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "17069"
+          "Value": "28019"
         },
         {
           "Name": "ETag",
-          "Value": "\"OKjRSE+pmccqY3nHS5Vs89mSDZD2s5yubygnANDRBe0=\""
+          "Value": "\"19G2adF0xQWkGRRf9rBomAbM3mVi75Yq2keBSjo4y18=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 04:50:37 GMT"
+          "Value": "Fri, 06 Jun 2025 04:31:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13068,19 +12907,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"aBuudMWGo0LmodRr3cXv5x1Wu4grRxqUM7z9Az334U4=\""
+          "Value": "W/\"X0JyfEt6egqIhDefnWJwKVWrS1CLclDYAhWYGxXGr6g=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-aBuudMWGo0LmodRr3cXv5x1Wu4grRxqUM7z9Az334U4="
+          "Value": "sha256-X0JyfEt6egqIhDefnWJwKVWrS1CLclDYAhWYGxXGr6g="
         }
       ]
     },
     {
       "Route": "_framework/EventEaseAppBlazor.pdb.gz",
-      "AssetFile": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/obj/Debug/net9.0/compressed/vxku9hr0nl-k98z0sq50s.gz",
+      "AssetFile": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/obj/Debug/net9.0/compressed/vxku9hr0nl-p2w1t6tiw8.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13089,7 +12928,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "17069"
+          "Value": "28019"
         },
         {
           "Name": "Content-Type",
@@ -13097,11 +12936,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"OKjRSE+pmccqY3nHS5Vs89mSDZD2s5yubygnANDRBe0=\""
+          "Value": "\"19G2adF0xQWkGRRf9rBomAbM3mVi75Yq2keBSjo4y18=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 04:50:37 GMT"
+          "Value": "Fri, 06 Jun 2025 04:31:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13119,7 +12958,168 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-OKjRSE+pmccqY3nHS5Vs89mSDZD2s5yubygnANDRBe0="
+          "Value": "sha256-19G2adF0xQWkGRRf9rBomAbM3mVi75Yq2keBSjo4y18="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/EventEaseAppBlazor.tqfx5pptyp.wasm",
+      "AssetFile": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/bin/Debug/net9.0/wwwroot/_framework/EventEaseAppBlazor.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42773"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Czky2K/pk3TjELaRk9DZbNEnD0GwX9P+/vOqV8qqcAk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 04:31:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tqfx5pptyp"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/EventEaseAppBlazor.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Czky2K/pk3TjELaRk9DZbNEnD0GwX9P+/vOqV8qqcAk="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/EventEaseAppBlazor.tqfx5pptyp.wasm",
+      "AssetFile": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/obj/Debug/net9.0/compressed/okgptxg7fp-tqfx5pptyp.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000065019506"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15379"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z5oS4Q6QsbTA2fPCT830UYxlYVzembP7eF1Dz2qRvcI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 04:31:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Czky2K/pk3TjELaRk9DZbNEnD0GwX9P+/vOqV8qqcAk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tqfx5pptyp"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/EventEaseAppBlazor.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Czky2K/pk3TjELaRk9DZbNEnD0GwX9P+/vOqV8qqcAk="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/EventEaseAppBlazor.tqfx5pptyp.wasm.gz",
+      "AssetFile": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/obj/Debug/net9.0/compressed/okgptxg7fp-tqfx5pptyp.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15379"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z5oS4Q6QsbTA2fPCT830UYxlYVzembP7eF1Dz2qRvcI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 04:31:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tqfx5pptyp"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/EventEaseAppBlazor.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Z5oS4Q6QsbTA2fPCT830UYxlYVzembP7eF1Dz2qRvcI="
         }
       ]
     },
@@ -13134,7 +13134,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "20245"
+          "Value": "42773"
         },
         {
           "Name": "Content-Type",
@@ -13142,11 +13142,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Pyt4TK9UI3zgRPsgtWi1MC+ijniMEuJA2fVAP9g4YvM=\""
+          "Value": "\"Czky2K/pk3TjELaRk9DZbNEnD0GwX9P+/vOqV8qqcAk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 04:50:37 GMT"
+          "Value": "Fri, 06 Jun 2025 04:31:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13156,18 +13156,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Pyt4TK9UI3zgRPsgtWi1MC+ijniMEuJA2fVAP9g4YvM="
+          "Value": "sha256-Czky2K/pk3TjELaRk9DZbNEnD0GwX9P+/vOqV8qqcAk="
         }
       ]
     },
     {
       "Route": "_framework/EventEaseAppBlazor.wasm",
-      "AssetFile": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/obj/Debug/net9.0/compressed/okgptxg7fp-hgjx8jcg0w.gz",
+      "AssetFile": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/obj/Debug/net9.0/compressed/okgptxg7fp-tqfx5pptyp.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000115353559"
+          "Quality": "0.000065019506"
         }
       ],
       "ResponseHeaders": [
@@ -13177,15 +13177,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8668"
+          "Value": "15379"
         },
         {
           "Name": "ETag",
-          "Value": "\"OUyMUDQf5GRtU9AALx+qAVNJ8wV8+gHDgqZZvqMJEj8=\""
+          "Value": "\"Z5oS4Q6QsbTA2fPCT830UYxlYVzembP7eF1Dz2qRvcI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 04:50:37 GMT"
+          "Value": "Fri, 06 Jun 2025 04:31:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13205,19 +13205,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Pyt4TK9UI3zgRPsgtWi1MC+ijniMEuJA2fVAP9g4YvM=\""
+          "Value": "W/\"Czky2K/pk3TjELaRk9DZbNEnD0GwX9P+/vOqV8qqcAk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Pyt4TK9UI3zgRPsgtWi1MC+ijniMEuJA2fVAP9g4YvM="
+          "Value": "sha256-Czky2K/pk3TjELaRk9DZbNEnD0GwX9P+/vOqV8qqcAk="
         }
       ]
     },
     {
       "Route": "_framework/EventEaseAppBlazor.wasm.gz",
-      "AssetFile": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/obj/Debug/net9.0/compressed/okgptxg7fp-hgjx8jcg0w.gz",
+      "AssetFile": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/obj/Debug/net9.0/compressed/okgptxg7fp-tqfx5pptyp.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13226,7 +13226,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8668"
+          "Value": "15379"
         },
         {
           "Name": "Content-Type",
@@ -13234,11 +13234,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"OUyMUDQf5GRtU9AALx+qAVNJ8wV8+gHDgqZZvqMJEj8=\""
+          "Value": "\"Z5oS4Q6QsbTA2fPCT830UYxlYVzembP7eF1Dz2qRvcI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 04:50:37 GMT"
+          "Value": "Fri, 06 Jun 2025 04:31:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13256,7 +13256,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-OUyMUDQf5GRtU9AALx+qAVNJ8wV8+gHDgqZZvqMJEj8="
+          "Value": "sha256-Z5oS4Q6QsbTA2fPCT830UYxlYVzembP7eF1Dz2qRvcI="
         }
       ]
     },
@@ -71074,12 +71074,12 @@
     },
     {
       "Route": "css/app.css",
-      "AssetFile": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/obj/Debug/net9.0/compressed/jltdx393cm-xd83rnx73q.gz",
+      "AssetFile": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/obj/Debug/net9.0/compressed/jltdx393cm-xvwjr3soza.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000508130081"
+          "Quality": "0.000437636761"
         }
       ],
       "ResponseHeaders": [
@@ -71089,15 +71089,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1967"
+          "Value": "2284"
         },
         {
           "Name": "ETag",
-          "Value": "\"xuTldvOhATnBJXNhqyL9C27qZKM/W7fBC6Z3vsJlWko=\""
+          "Value": "\"Gw/TteIZCiwkMD1L/PSmt9I7iqd2/uQJyG6+UoKk9dQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 04:18:54 GMT"
+          "Value": "Fri, 06 Jun 2025 04:29:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -71117,13 +71117,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"NdR6BBtG0A492/UR/PUoJ0g3Y19lJ4fdogIrJWMC6TE=\""
+          "Value": "W/\"wyt32Kz5kx6umePSmC70CSg4WhGzTosE5FhwjLignjo=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-NdR6BBtG0A492/UR/PUoJ0g3Y19lJ4fdogIrJWMC6TE="
+          "Value": "sha256-wyt32Kz5kx6umePSmC70CSg4WhGzTosE5FhwjLignjo="
         }
       ]
     },
@@ -71138,7 +71138,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4038"
+          "Value": "5105"
         },
         {
           "Name": "Content-Type",
@@ -71146,11 +71146,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"NdR6BBtG0A492/UR/PUoJ0g3Y19lJ4fdogIrJWMC6TE=\""
+          "Value": "\"wyt32Kz5kx6umePSmC70CSg4WhGzTosE5FhwjLignjo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 04:18:54 GMT"
+          "Value": "Fri, 06 Jun 2025 04:29:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -71160,13 +71160,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-NdR6BBtG0A492/UR/PUoJ0g3Y19lJ4fdogIrJWMC6TE="
+          "Value": "sha256-wyt32Kz5kx6umePSmC70CSg4WhGzTosE5FhwjLignjo="
         }
       ]
     },
     {
       "Route": "css/app.css.gz",
-      "AssetFile": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/obj/Debug/net9.0/compressed/jltdx393cm-xd83rnx73q.gz",
+      "AssetFile": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/obj/Debug/net9.0/compressed/jltdx393cm-xvwjr3soza.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -71175,7 +71175,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1967"
+          "Value": "2284"
         },
         {
           "Name": "Content-Type",
@@ -71183,11 +71183,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xuTldvOhATnBJXNhqyL9C27qZKM/W7fBC6Z3vsJlWko=\""
+          "Value": "\"Gw/TteIZCiwkMD1L/PSmt9I7iqd2/uQJyG6+UoKk9dQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 04:18:54 GMT"
+          "Value": "Fri, 06 Jun 2025 04:29:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -71205,18 +71205,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-xuTldvOhATnBJXNhqyL9C27qZKM/W7fBC6Z3vsJlWko="
+          "Value": "sha256-Gw/TteIZCiwkMD1L/PSmt9I7iqd2/uQJyG6+UoKk9dQ="
         }
       ]
     },
     {
-      "Route": "css/app.xd83rnx73q.css",
-      "AssetFile": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/obj/Debug/net9.0/compressed/jltdx393cm-xd83rnx73q.gz",
+      "Route": "css/app.xvwjr3soza.css",
+      "AssetFile": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/obj/Debug/net9.0/compressed/jltdx393cm-xvwjr3soza.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000508130081"
+          "Quality": "0.000437636761"
         }
       ],
       "ResponseHeaders": [
@@ -71226,15 +71226,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1967"
+          "Value": "2284"
         },
         {
           "Name": "ETag",
-          "Value": "\"xuTldvOhATnBJXNhqyL9C27qZKM/W7fBC6Z3vsJlWko=\""
+          "Value": "\"Gw/TteIZCiwkMD1L/PSmt9I7iqd2/uQJyG6+UoKk9dQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 04:18:54 GMT"
+          "Value": "Fri, 06 Jun 2025 04:29:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -71254,13 +71254,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"NdR6BBtG0A492/UR/PUoJ0g3Y19lJ4fdogIrJWMC6TE=\""
+          "Value": "W/\"wyt32Kz5kx6umePSmC70CSg4WhGzTosE5FhwjLignjo=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xd83rnx73q"
+          "Value": "xvwjr3soza"
         },
         {
           "Name": "label",
@@ -71268,12 +71268,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-NdR6BBtG0A492/UR/PUoJ0g3Y19lJ4fdogIrJWMC6TE="
+          "Value": "sha256-wyt32Kz5kx6umePSmC70CSg4WhGzTosE5FhwjLignjo="
         }
       ]
     },
     {
-      "Route": "css/app.xd83rnx73q.css",
+      "Route": "css/app.xvwjr3soza.css",
       "AssetFile": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/wwwroot/css/app.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -71283,7 +71283,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4038"
+          "Value": "5105"
         },
         {
           "Name": "Content-Type",
@@ -71291,11 +71291,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"NdR6BBtG0A492/UR/PUoJ0g3Y19lJ4fdogIrJWMC6TE=\""
+          "Value": "\"wyt32Kz5kx6umePSmC70CSg4WhGzTosE5FhwjLignjo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 04:18:54 GMT"
+          "Value": "Fri, 06 Jun 2025 04:29:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -71305,7 +71305,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xd83rnx73q"
+          "Value": "xvwjr3soza"
         },
         {
           "Name": "label",
@@ -71313,13 +71313,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-NdR6BBtG0A492/UR/PUoJ0g3Y19lJ4fdogIrJWMC6TE="
+          "Value": "sha256-wyt32Kz5kx6umePSmC70CSg4WhGzTosE5FhwjLignjo="
         }
       ]
     },
     {
-      "Route": "css/app.xd83rnx73q.css.gz",
-      "AssetFile": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/obj/Debug/net9.0/compressed/jltdx393cm-xd83rnx73q.gz",
+      "Route": "css/app.xvwjr3soza.css.gz",
+      "AssetFile": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/obj/Debug/net9.0/compressed/jltdx393cm-xvwjr3soza.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -71328,7 +71328,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1967"
+          "Value": "2284"
         },
         {
           "Name": "Content-Type",
@@ -71336,11 +71336,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xuTldvOhATnBJXNhqyL9C27qZKM/W7fBC6Z3vsJlWko=\""
+          "Value": "\"Gw/TteIZCiwkMD1L/PSmt9I7iqd2/uQJyG6+UoKk9dQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 04:18:54 GMT"
+          "Value": "Fri, 06 Jun 2025 04:29:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -71358,7 +71358,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xd83rnx73q"
+          "Value": "xvwjr3soza"
         },
         {
           "Name": "label",
@@ -71366,7 +71366,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-xuTldvOhATnBJXNhqyL9C27qZKM/W7fBC6Z3vsJlWko="
+          "Value": "sha256-Gw/TteIZCiwkMD1L/PSmt9I7iqd2/uQJyG6+UoKk9dQ="
         }
       ]
     },
@@ -71536,12 +71536,12 @@
     },
     {
       "Route": "index.html",
-      "AssetFile": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/obj/Debug/net9.0/compressed/04a61o0gbu-lccqhwj5zb.gz",
+      "AssetFile": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/obj/Debug/net9.0/compressed/04a61o0gbu-s24dmygy00.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002109704641"
+          "Quality": "0.001988071571"
         }
       ],
       "ResponseHeaders": [
@@ -71551,15 +71551,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "473"
+          "Value": "502"
         },
         {
           "Name": "ETag",
-          "Value": "\"1vPzyc9WOvVtZYR6XVY2l5mxhL8boC47xt586sB5RVw=\""
+          "Value": "\"MMwvMgdyGmecSKSCmpyDZSY9HIq1Q2z4BzVveCmhw9Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 04:18:54 GMT"
+          "Value": "Fri, 06 Jun 2025 04:28:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -71579,13 +71579,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"BWKPYqEymPVfvWANCPJeMu+crlVU/jVkAkC3ktTkMgc=\""
+          "Value": "W/\"HIxDWxikfTjo7tiCnSFy7alXCdNzbwOHV6n4Nk8GZ84=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-BWKPYqEymPVfvWANCPJeMu+crlVU/jVkAkC3ktTkMgc="
+          "Value": "sha256-HIxDWxikfTjo7tiCnSFy7alXCdNzbwOHV6n4Nk8GZ84="
         }
       ]
     },
@@ -71600,7 +71600,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "959"
+          "Value": "1031"
         },
         {
           "Name": "Content-Type",
@@ -71608,11 +71608,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"BWKPYqEymPVfvWANCPJeMu+crlVU/jVkAkC3ktTkMgc=\""
+          "Value": "\"HIxDWxikfTjo7tiCnSFy7alXCdNzbwOHV6n4Nk8GZ84=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 04:18:54 GMT"
+          "Value": "Fri, 06 Jun 2025 04:28:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -71622,13 +71622,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-BWKPYqEymPVfvWANCPJeMu+crlVU/jVkAkC3ktTkMgc="
+          "Value": "sha256-HIxDWxikfTjo7tiCnSFy7alXCdNzbwOHV6n4Nk8GZ84="
         }
       ]
     },
     {
       "Route": "index.html.gz",
-      "AssetFile": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/obj/Debug/net9.0/compressed/04a61o0gbu-lccqhwj5zb.gz",
+      "AssetFile": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/obj/Debug/net9.0/compressed/04a61o0gbu-s24dmygy00.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -71637,7 +71637,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "473"
+          "Value": "502"
         },
         {
           "Name": "Content-Type",
@@ -71645,11 +71645,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"1vPzyc9WOvVtZYR6XVY2l5mxhL8boC47xt586sB5RVw=\""
+          "Value": "\"MMwvMgdyGmecSKSCmpyDZSY9HIq1Q2z4BzVveCmhw9Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 04:18:54 GMT"
+          "Value": "Fri, 06 Jun 2025 04:28:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -71667,18 +71667,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-1vPzyc9WOvVtZYR6XVY2l5mxhL8boC47xt586sB5RVw="
+          "Value": "sha256-MMwvMgdyGmecSKSCmpyDZSY9HIq1Q2z4BzVveCmhw9Y="
         }
       ]
     },
     {
-      "Route": "index.lccqhwj5zb.html",
-      "AssetFile": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/obj/Debug/net9.0/compressed/04a61o0gbu-lccqhwj5zb.gz",
+      "Route": "index.s24dmygy00.html",
+      "AssetFile": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/obj/Debug/net9.0/compressed/04a61o0gbu-s24dmygy00.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002109704641"
+          "Quality": "0.001988071571"
         }
       ],
       "ResponseHeaders": [
@@ -71688,15 +71688,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "473"
+          "Value": "502"
         },
         {
           "Name": "ETag",
-          "Value": "\"1vPzyc9WOvVtZYR6XVY2l5mxhL8boC47xt586sB5RVw=\""
+          "Value": "\"MMwvMgdyGmecSKSCmpyDZSY9HIq1Q2z4BzVveCmhw9Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 04:18:54 GMT"
+          "Value": "Fri, 06 Jun 2025 04:28:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -71716,13 +71716,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"BWKPYqEymPVfvWANCPJeMu+crlVU/jVkAkC3ktTkMgc=\""
+          "Value": "W/\"HIxDWxikfTjo7tiCnSFy7alXCdNzbwOHV6n4Nk8GZ84=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "lccqhwj5zb"
+          "Value": "s24dmygy00"
         },
         {
           "Name": "label",
@@ -71730,12 +71730,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-BWKPYqEymPVfvWANCPJeMu+crlVU/jVkAkC3ktTkMgc="
+          "Value": "sha256-HIxDWxikfTjo7tiCnSFy7alXCdNzbwOHV6n4Nk8GZ84="
         }
       ]
     },
     {
-      "Route": "index.lccqhwj5zb.html",
+      "Route": "index.s24dmygy00.html",
       "AssetFile": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/wwwroot/index.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -71745,7 +71745,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "959"
+          "Value": "1031"
         },
         {
           "Name": "Content-Type",
@@ -71753,11 +71753,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"BWKPYqEymPVfvWANCPJeMu+crlVU/jVkAkC3ktTkMgc=\""
+          "Value": "\"HIxDWxikfTjo7tiCnSFy7alXCdNzbwOHV6n4Nk8GZ84=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 04:18:54 GMT"
+          "Value": "Fri, 06 Jun 2025 04:28:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -71767,7 +71767,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "lccqhwj5zb"
+          "Value": "s24dmygy00"
         },
         {
           "Name": "label",
@@ -71775,13 +71775,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-BWKPYqEymPVfvWANCPJeMu+crlVU/jVkAkC3ktTkMgc="
+          "Value": "sha256-HIxDWxikfTjo7tiCnSFy7alXCdNzbwOHV6n4Nk8GZ84="
         }
       ]
     },
     {
-      "Route": "index.lccqhwj5zb.html.gz",
-      "AssetFile": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/obj/Debug/net9.0/compressed/04a61o0gbu-lccqhwj5zb.gz",
+      "Route": "index.s24dmygy00.html.gz",
+      "AssetFile": "/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/obj/Debug/net9.0/compressed/04a61o0gbu-s24dmygy00.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -71790,7 +71790,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "473"
+          "Value": "502"
         },
         {
           "Name": "Content-Type",
@@ -71798,11 +71798,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"1vPzyc9WOvVtZYR6XVY2l5mxhL8boC47xt586sB5RVw=\""
+          "Value": "\"MMwvMgdyGmecSKSCmpyDZSY9HIq1Q2z4BzVveCmhw9Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Jun 2025 04:18:54 GMT"
+          "Value": "Fri, 06 Jun 2025 04:28:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -71820,7 +71820,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "lccqhwj5zb"
+          "Value": "s24dmygy00"
         },
         {
           "Name": "label",
@@ -71828,7 +71828,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-1vPzyc9WOvVtZYR6XVY2l5mxhL8boC47xt586sB5RVw="
+          "Value": "sha256-MMwvMgdyGmecSKSCmpyDZSY9HIq1Q2z4BzVveCmhw9Y="
         }
       ]
     },

@@ -1,0 +1,71 @@
+@page "/seleccionar-evento"
+@inject EventEaseAppBlazor.Services.EventService EventService
+@inject NavigationManager NavigationManager
+
+<div class="mb-3">
+    <button class="btn btn-secondary" @onclick="Volver">
+        <i class="bi bi-arrow-left"></i> Volver
+    </button>
+</div>
+
+<h3 class="mb-4 text-primary">Selecciona un evento</h3>
+
+@if (eventos.Count == 0)
+{
+    <div class="alert alert-info">No hay eventos registrados.</div>
+}
+else
+{
+    <table class="table table-hover shadow-sm">
+        <thead class="table-light">
+            <tr>
+                <th>Nombre</th>
+                <th>Fecha</th>
+                <th>Ubicación</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var evento in eventos)
+            {
+                <tr>
+                    <td>@evento.Nombre</td>
+                    <td>@evento.Fecha.ToShortDateString()</td>
+                    <td>@evento.Ubicacion</td>
+                    <td>
+                        <button class="btn btn-outline-success btn-sm me-2" @onclick="() => IrARegistrarAsistencia(evento.Id)">
+                            Registrar asistencia
+                        </button>
+                        <button class="btn btn-outline-primary btn-sm" @onclick="() => IrAVerSesion(evento.Id)">
+                            Ver sesión
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<EventEaseAppBlazor.Models.Event> eventos = new();
+
+    protected override void OnInitialized()
+    {
+        eventos = EventService.GetAll();
+    }
+
+    private void IrARegistrarAsistencia(int eventId)
+    {
+        NavigationManager.NavigateTo($"/attendance/{eventId}");
+    }
+
+    private void IrAVerSesion(int eventId)
+    {
+        NavigationManager.NavigateTo($"/attendance/{eventId}");
+    }
+
+    private void Volver()
+    {
+        NavigationManager.NavigateTo("/");
+    }
+}

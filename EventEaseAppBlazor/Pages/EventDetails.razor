@@ -2,25 +2,47 @@
 @using EventEaseAppBlazor.Models
 @inject EventEaseAppBlazor.Services.EventService EventService
 @inject NavigationManager NavigationManager
+@inject EventEaseAppBlazor.Services.UserSessionService SessionService
 
-<h3>Detalles del evento</h3>
+<h3 class="mb-4 text-primary">Detalles del evento</h3>
 
 @if (evento is null)
 {
-    <p>Evento no encontrado.</p>
+    <div class="alert alert-warning">Evento no encontrado.</div>
 }
 else
 {
-    <div class="card p-4">
-        <h3>@evento.Nombre</h3>
-        <p><strong>Id:</strong> @evento.Id</p>
-        <p><strong>Fecha:</strong> @evento.Fecha.ToShortDateString()</p>
-        <p><strong>Ubicación:</strong> @evento.Ubicacion</p>
-        <p><strong>Descripción:</strong> @evento.Descripcion</p>
-        <p><strong>Organizador:</strong> @evento.Organizador</p>
-        <p><strong>Categoría:</strong> @evento.Categoria</p>
-        <button class="btn btn-danger" @onclick="EliminarEvento">Eliminar</button>
-        <button class="btn btn-secondary ms-2" @onclick="Volver">Volver</button>
+    <div class="card shadow-lg border-0 rounded-4 p-4 event-details-card">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <h2 class="mb-0">@evento.Nombre</h2>
+            <span class="badge bg-info fs-6">@evento.Categoria</span>
+        </div>
+        <ul class="list-group list-group-flush mb-3">
+            <li class="list-group-item bg-transparent">
+                <i class="bi bi-calendar-event me-2 text-secondary"></i>
+                <strong>Fecha:</strong> @evento.Fecha.ToShortDateString()
+            </li>
+            <li class="list-group-item bg-transparent">
+                <i class="bi bi-geo-alt me-2 text-secondary"></i>
+                <strong>Ubicación:</strong> @evento.Ubicacion
+            </li>
+            <li class="list-group-item bg-transparent">
+                <i class="bi bi-person me-2 text-secondary"></i>
+                <strong>Organizador:</strong> @evento.Organizador
+            </li>
+        </ul>
+        <div class="mb-3">
+            <strong>Descripción:</strong>
+            <div class="bg-light rounded-3 p-3 mt-1">@evento.Descripcion</div>
+        </div>
+        <div class="d-flex justify-content-end gap-2">
+            <button class="btn btn-danger" @onclick="EliminarEvento">
+                <i class="bi bi-trash"></i> Eliminar
+            </button>
+            <button class="btn btn-secondary" @onclick="Volver">
+                <i class="bi bi-arrow-left"></i> Volver
+            </button>
+        </div>
     </div>
 }
 
@@ -29,17 +51,22 @@ else
     public int id { get; set; }
 
     private Event? evento;
+    private string userId = "demo-user"; // Reemplaza por el ID real del usuario
 
-    protected override void OnParametersSet()
+    protected override void OnInitialized()
     {
         evento = EventService.GetById(id);
+        if (evento != null)
+        {
+            SessionService.StartSession(evento.Id, userId);
+        }
     }
 
     private void EliminarEvento()
     {
         if (evento != null)
         {
-            EventService.Remove(evento.Id);
+            EventService.Delete(evento.Id);
             NavigationManager.NavigateTo("/");
         }
     }
@@ -47,5 +74,13 @@ else
     private void Volver()
     {
         NavigationManager.NavigateTo("/");
+    }
+
+    public void Dispose()
+    {
+        if (evento != null)
+        {
+            SessionService.EndSession(evento.Id, userId);
+        }
     }
 }

@@ -1,23 +1,44 @@
 @using System.Globalization
 @using EventEaseAppBlazor.Models
-@inject NavigationManager NavigationManager
+@using EventEaseAppBlazor.Components
 
-<div class="card p-3 mb-3">
-    <h4>@Evento.Nombre</h4>
-    <p><strong>Fecha:</strong> @Evento.Fecha.ToString("dd/MM/yyyy")</p>
-    <p><strong>Ubicación:</strong> @Evento.Ubicacion</p>
-    <p><strong>Descripción:</strong> @Evento.Descripcion</p>
-    <p><strong>Organizador:</strong> @Evento.Organizador</p>
-    <p><strong>Categoría:</strong> @Evento.Categoria</p>
-    <button class="btn btn-primary" @onclick="VerDetalles">Ver detalles</button>
+<div class="card shadow-sm mb-4 event-card">
+    <div class="card-body">
+        <div class="d-flex justify-content-between align-items-center mb-2">
+            <h4 class="card-title mb-0">@Evento.Nombre</h4>
+            <span class="badge bg-primary">@Evento.Categoria</span>
+        </div>
+        <p class="card-text text-muted mb-1"><i class="bi bi-calendar-event"></i> @Evento.Fecha.ToString("dd/MM/yyyy")</p>
+        <p class="card-text text-muted mb-1"><i class="bi bi-geo-alt"></i> @Evento.Ubicacion</p>
+        <p class="card-text">@Evento.Descripcion</p>
+        <div class="d-flex justify-content-between align-items-center">
+            <small class="text-secondary">Organizador: @Evento.Organizador</small>
+            <div>
+                <button class="btn btn-outline-primary btn-sm me-2" @onclick="VerDetalles">Ver detalles</button>
+                <button class="btn btn-outline-danger btn-sm" @onclick="Eliminar">Eliminar</button>
+            </div>
+        </div>
+    </div>
 </div>
 
 @code {
     [Parameter]
     public Event Evento { get; set; } = default!;
 
+    [Parameter]
+    public EventCallback<Event> OnEliminar { get; set; }
+
+    [Inject]
+    NavigationManager NavigationManager { get; set; } = default!;
+
     private void VerDetalles()
     {
         NavigationManager.NavigateTo($"/eventdetails/{Evento.Id}");
+    }
+
+    private async Task Eliminar()
+    {
+        if (OnEliminar.HasDelegate)
+            await OnEliminar.InvokeAsync(Evento);
     }
 }

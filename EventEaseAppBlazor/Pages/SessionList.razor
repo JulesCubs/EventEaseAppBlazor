@@ -1,0 +1,44 @@
+@page "/sessions"
+@inject EventEaseAppBlazor.Services.UserSessionService SessionService
+
+<h3 class="mb-4 text-primary">Sesiones de Asistencia</h3>
+
+@if (!SessionService.GetAllSessions().Any())
+{
+    <div class="alert alert-info">No hay sesiones registradas.</div>
+}
+else
+{
+    <table class="table table-hover table-bordered shadow-sm">
+        <thead class="table-light">
+            <tr>
+                <th>Evento</th>
+                <th>Usuario</th>
+                <th>Hora de entrada</th>
+                <th>Hora de salida</th>
+                <th>Estado</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var session in SessionService.GetAllSessions())
+            {
+                <tr>
+                    <td>@session.EventId</td>
+                    <td>@session.UserId</td>
+                    <td>@session.JoinTime.ToString("g")</td>
+                    <td>@(session.LeaveTime?.ToString("g") ?? "-")</td>
+                    <td>
+                        @if (session.IsActive)
+                        {
+                            <span class="badge bg-success">Presente</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-secondary">Finalizado</span>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

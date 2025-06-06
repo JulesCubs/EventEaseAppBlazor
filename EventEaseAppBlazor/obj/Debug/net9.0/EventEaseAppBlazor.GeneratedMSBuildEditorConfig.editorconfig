@@ -32,12 +32,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9FdmVudENhcmQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/Pages/EventAttendance.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXZlbnRBdHRlbmRhbmNlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/Pages/EventDetails.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXZlbnREZXRhaWxzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/Pages/SelectEvent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2VsZWN0RXZlbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/Pages/SessionList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2Vzc2lvbkxpc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/julescubs/julian/dotnet/blazor/EventEaseAppBlazor/EventEaseAppBlazor/Shared/MainLayout.razor]

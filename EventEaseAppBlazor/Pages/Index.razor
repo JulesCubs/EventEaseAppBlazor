@@ -1,51 +1,129 @@
 @page "/"
 @using EventEaseAppBlazor.Models
+@using System.ComponentModel.DataAnnotations
+@using EventEaseAppBlazor.Components
 @inject EventEaseAppBlazor.Services.EventService EventService
 @inject NavigationManager NavigationManager
 
 <h3>Eventos</h3>
 
-@foreach (var evento in eventos)
-{
-    <div>
-        <b>@evento.Nombre</b>
-        <button @onclick="() => VerDetalles(evento.Id)">Ver detalles</button>
-        <button @onclick="() => EliminarEvento(evento.Id)">Eliminar</button>
-    </div>
-}
+<div class="row">
+    @foreach (var evento in eventos)
+    {
+        <div class="col-md-6 col-lg-4">
+            <EventCard Evento="evento" OnEliminar="EliminarEvento" />
+        </div>
+    }
+</div>
 
-<input placeholder="Nombre" @bind="nuevoEvento.Nombre" />
-<button @onclick="AgregarEvento">Agregar</button>
+<hr />
+
+<h4>Agregar nuevo evento</h4>
+<EditForm Model="nuevoEvento" OnValidSubmit="AgregarEvento">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="mb-2">
+        <label>Nombre</label>
+        <InputText class="form-control" @bind-Value="nuevoEvento.Nombre" />
+        <ValidationMessage For="@(() => nuevoEvento.Nombre)" />
+    </div>
+    <div class="mb-2">
+        <label>Fecha</label>
+        <InputDate class="form-control" @bind-Value="nuevoEvento.Fecha" />
+        <ValidationMessage For="@(() => nuevoEvento.Fecha)" />
+    </div>
+    <div class="mb-2">
+        <label>Ubicación</label>
+        <InputText class="form-control" @bind-Value="nuevoEvento.Ubicacion" />
+        <ValidationMessage For="@(() => nuevoEvento.Ubicacion)" />
+    </div>
+    <div class="mb-2">
+        <label>Descripción</label>
+        <InputTextArea class="form-control" @bind-Value="nuevoEvento.Descripcion" />
+        <ValidationMessage For="@(() => nuevoEvento.Descripcion)" />
+    </div>
+    <div class="mb-2">
+        <label>Organizador</label>
+        <InputText class="form-control" @bind-Value="nuevoEvento.Organizador" />
+        <ValidationMessage For="@(() => nuevoEvento.Organizador)" />
+    </div>
+    <div class="mb-2">
+        <label>Categoría</label>
+        <InputText class="form-control" @bind-Value="nuevoEvento.Categoria" />
+        <ValidationMessage For="@(() => nuevoEvento.Categoria)" />
+    </div>
+    <button class="btn btn-success" type="submit">Agregar</button>
+</EditForm>
 
 @code {
     private List<Event> eventos = new();
-    private Event nuevoEvento = new Event();
+    private EventFormModel nuevoEvento = new();
 
     protected override void OnInitialized()
     {
         eventos = EventService.GetAll();
-    }
 
-    private void VerDetalles(int id)
-    {
-        NavigationManager.NavigateTo($"/eventdetails/{id}");
+        // Evento de prueba si la lista está vacía
+        if (eventos.Count == 0)
+        {
+            var demo = new Event
+            {
+                Nombre = "Concierto de Rock",
+                Fecha = DateTime.Today.AddDays(7),
+                Ubicacion = "Teatro Principal",
+                Descripcion = "Un concierto con las mejores bandas locales.",
+                Organizador = "Eventos XYZ",
+                Categoria = "Música"
+            };
+            EventService.Add(demo);
+            eventos = EventService.GetAll();
+        }
     }
 
     private void AgregarEvento()
     {
-        if (!string.IsNullOrWhiteSpace(nuevoEvento.Nombre))
+        var nuevo = new Event
         {
-            EventService.Add(new Event { Nombre = nuevoEvento.Nombre });
-            eventos = EventService.GetAll();
-            nuevoEvento = new Event();
-            StateHasChanged();
-        }
+            Nombre = nuevoEvento.Nombre,
+            Fecha = nuevoEvento.Fecha,
+            Ubicacion = nuevoEvento.Ubicacion,
+            Descripcion = nuevoEvento.Descripcion,
+            Organizador = nuevoEvento.Organizador,
+            Categoria = nuevoEvento.Categoria
+        };
+        EventService.Add(nuevo);
+        eventos = EventService.GetAll();
+        nuevoEvento = new();
+        StateHasChanged();
     }
 
-    private void EliminarEvento(int id)
+    private void EliminarEvento(Event evento)
     {
-        EventService.Remove(id);
+        EventService.Delete(evento.Id);
         eventos = EventService.GetAll();
         StateHasChanged();
+    }
+
+    // Modelo para validación
+    public class EventFormModel
+    {
+        [Required(ErrorMessage = "El nombre es obligatorio")]
+        public string Nombre { get; set; } = "";
+
+        [Required(ErrorMessage = "La fecha es obligatoria")]
+        public DateTime Fecha { get; set; } = DateTime.Today;
+
+        [Required(ErrorMessage = "La ubicación es obligatoria")]
+        public string Ubicacion { get; set; } = "";
+
+        [Required(ErrorMessage = "La descripción es obligatoria")]
+        public string Descripcion { get; set; } = "";
+
+        [Required(ErrorMessage = "El organizador es obligatorio")]
+        public string Organizador { get; set; } = "";
+
+        [Required(ErrorMessage = "La categoría es obligatoria")]
+        public string Categoria { get; set; } = "";
     }
 }

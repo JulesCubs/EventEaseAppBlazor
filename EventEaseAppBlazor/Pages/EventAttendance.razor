@@ -1,0 +1,119 @@
+@page "/attendance/{eventId:int}"
+@using System.ComponentModel.DataAnnotations
+@inject EventEaseAppBlazor.Services.UserSessionService SessionService
+@inject EventEaseAppBlazor.Services.EventService EventService
+
+<h3 class="mb-4 text-primary">
+    Asistencia al Evento: 
+    <span class="fw-bold">@evento?.Nombre</span>
+</h3>
+
+@if (evento != null)
+{
+    <div class="mb-3">
+        <span class="badge bg-info">@evento.Categoria</span>
+        <span class="ms-3"><i class="bi bi-calendar-event"></i> @evento.Fecha.ToShortDateString()</span>
+        <span class="ms-3"><i class="bi bi-geo-alt"></i> @evento.Ubicacion</span>
+    </div>
+}
+
+<div class="card p-4 mb-4 shadow-sm">
+    <h5>Registrar asistencia</h5>
+    <EditForm Model="@registro" OnValidSubmit="RegistrarAsistencia">
+        <DataAnnotationsValidator />
+        <div class="row g-2 align-items-end">
+            <div class="col-md-5">
+                <InputText class="form-control" @bind-Value="registro.UserId" placeholder="ID o nombre de usuario" />
+                <ValidationMessage For="@(() => registro.UserId)" />
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-success" type="submit">Registrar entrada</button>
+            </div>
+        </div>
+    </EditForm>
+</div>
+
+@if (!SessionService.GetSessionsForEvent(eventId).Any())
+{
+    <div class="alert alert-info">No hay asistentes registrados para este evento.</div>
+}
+else
+{
+    <table class="table table-hover table-bordered shadow-sm">
+        <thead class="table-light">
+            <tr>
+                <th>Usuario</th>
+                <th>Hora de entrada</th>
+                <th>Hora de salida</th>
+                <th>Estado</th>
+                <th>Acción</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var session in SessionService.GetSessionsForEvent(eventId))
+            {
+                <tr>
+                    <td>@session.UserId</td>
+                    <td>@session.JoinTime.ToString("g")</td>
+                    <td>@(session.LeaveTime?.ToString("g") ?? "-")</td>
+                    <td>
+                        @if (session.IsActive)
+                        {
+                            <span class="badge bg-success">Presente</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-secondary">Finalizado</span>
+                        }
+                    </td>
+                    <td>
+                        @if (session.IsActive)
+                        {
+                            <button class="btn btn-outline-danger btn-sm" @onclick="() => RegistrarSalida(session.UserId)">
+                                Registrar salida
+                            </button>
+                        }
+                        else
+                        {
+                            <span class="text-muted">-</span>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    [Parameter]
+    public int eventId { get; set; }
+
+    private RegistroAsistencia registro = new();
+    private EventEaseAppBlazor.Models.Event? evento;
+
+    protected override void OnInitialized()
+    {
+        evento = EventService.GetById(eventId);
+    }
+
+    private void RegistrarAsistencia()
+    {
+        if (!string.IsNullOrWhiteSpace(registro.UserId))
+        {
+            SessionService.StartSession(eventId, registro.UserId.Trim());
+            registro = new();
+        }
+    }
+
+    private void RegistrarSalida(string userId)
+    {
+        SessionService.EndSession(eventId, userId);
+        StateHasChanged();
+    }
+
+    public class RegistroAsistencia
+    {
+        [Required(ErrorMessage = "El usuario es obligatorio")]
+        public string UserId { get; set; } = "";
+    }
+}

@@ -32,8 +32,14 @@ a, .btn-link {
     outline: 1px solid red;
 }
 
-.validation-message {
-    color: red;
+.validation-message,
+.validation-summary-errors,
+.input-validation-error,
+span.validation-message,
+div.validation-message {
+    color: #e53935 !important;
+    font-weight: 700 !important;
+    font-size: 1rem !important;
 }
 
 #blazor-error-ui {
@@ -111,4 +117,38 @@ code {
 
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
     text-align: start;
+}
+
+.event-card {
+    border-radius: 1rem;
+    border: none;
+    transition: box-shadow 0.2s;
+}
+.event-card:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+}
+
+.event-details-card {
+    background: #fff;
+    border-radius: 1.5rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.main-nav-link, .navbar-nav .nav-link {
+    color: #fff !important;
+    background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+    border-radius: 2rem;
+    padding: 0.5rem 1.2rem;
+    margin: 0 0.5rem;
+    font-weight: 600;
+    transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 2px 8px rgba(0,123,255,0.08);
+    text-decoration: none !important;
+}
+.main-nav-link:hover, .navbar-nav .nav-link:hover {
+    background: linear-gradient(90deg, #00c6ff 0%, #007bff 100%);
+    color: #fff !important;
+    box-shadow: 0 4px 16px rgba(0,123,255,0.16);
+    text-decoration: none;
 }
