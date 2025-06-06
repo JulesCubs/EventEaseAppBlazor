@@ -42,7 +42,7 @@ The development of **EventEaseAppBlazor** was guided step by step by the user, w
 
 ### Credits
 
-Developed by [your name or team] with the assistance of **GitHub Copilot**.
+Developed by Julián Cubillos with the assistance of **GitHub Copilot**.
 
 ---
 # EventEaseAppBlazor - Español
@@ -89,6 +89,6 @@ El desarrollo de **EventEaseAppBlazor** fue guiado paso a paso por el usuario, c
 
 ### Créditos
 
-Desarrollado por [tu nombre o equipo] con la asistencia de **GitHub Copilot**.
+Desarrollado por Julián Cubillos con la asistencia de **GitHub Copilot**.
 
 ---
